@@ -1,0 +1,28 @@
+html {
+    margin: 0
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    max-width: 300px;
+    width: 100%;
+    background-color: bisque;
+    border-radius: 3px;
+    margin: 15px;
+    box-sizing: content-box
+}
+
+p {
+    font-size: 16px;
+    padding: 15px
+}
+
+@media screen (max-width: 1200px) {
+    .container {
+        max-width: 900px;
+        width: 100%;
+    }
+}
